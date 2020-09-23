@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="70" id="iE4-Yx-1g7" customClass="CommentCell" customModule="Social" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="iE4-Yx-1g7" id="C94-7G-eSY">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text=" asasa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oy0-JT-P1y">
+                        <rect key="frame" x="64" y="20" width="40.5" height="17"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                        <color key="textColor" name="Secondary"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hD7-VR-D2G">
+                        <rect key="frame" x="12" y="15" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="Y85-db-Jdd"/>
+                            <constraint firstAttribute="width" constant="40" id="h9a-1f-kgs"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" sasas" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ygy-sP-htT">
+                        <rect key="frame" x="64" y="41" width="330" height="23"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="23" id="vTo-R3-jgh"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                        <color key="textColor" name="Primary"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="Oy0-JT-P1y" secondAttribute="trailing" constant="318" id="27F-W6-WVX"/>
+                    <constraint firstItem="Oy0-JT-P1y" firstAttribute="leading" secondItem="hD7-VR-D2G" secondAttribute="trailing" constant="12" id="6Qa-CT-DyX"/>
+                    <constraint firstAttribute="trailing" secondItem="Ygy-sP-htT" secondAttribute="trailing" constant="20" id="J50-Iu-07d"/>
+                    <constraint firstItem="Ygy-sP-htT" firstAttribute="top" secondItem="Oy0-JT-P1y" secondAttribute="bottom" constant="4" id="OV9-L5-RIs"/>
+                    <constraint firstAttribute="bottom" secondItem="Ygy-sP-htT" secondAttribute="bottom" constant="6" id="RdM-JD-CGx"/>
+                    <constraint firstItem="hD7-VR-D2G" firstAttribute="leading" secondItem="C94-7G-eSY" secondAttribute="leading" constant="12" id="dzi-YF-EFE"/>
+                    <constraint firstItem="Ygy-sP-htT" firstAttribute="leading" secondItem="Oy0-JT-P1y" secondAttribute="leading" id="eJC-AN-OOG"/>
+                    <constraint firstItem="Oy0-JT-P1y" firstAttribute="top" secondItem="C94-7G-eSY" secondAttribute="top" constant="20" id="jO4-3O-Bbg"/>
+                    <constraint firstItem="hD7-VR-D2G" firstAttribute="centerY" secondItem="C94-7G-eSY" secondAttribute="centerY" id="opP-na-14t"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="commentText" destination="Ygy-sP-htT" id="t8o-If-y9a"/>
+                <outlet property="nameLabel" destination="Oy0-JT-P1y" id="fOY-YP-UgV"/>
+                <outlet property="userImage" destination="hD7-VR-D2G" id="2jB-KO-ZYA"/>
+            </connections>
+            <point key="canvasLocation" x="-10.144927536231885" y="69.642857142857139"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="Primary">
+            <color red="0.16470588235294117" green="0.16078431372549018" blue="0.41568627450980389" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Secondary">
+            <color red="0.60799998044967651" green="0.60799998044967651" blue="0.60799998044967651" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
