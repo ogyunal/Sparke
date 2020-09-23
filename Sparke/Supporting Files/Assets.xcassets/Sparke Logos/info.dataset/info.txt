@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: expressway_rg
+font link: https://www.fontspring.com/fonts/typodermic/expressway/expressway-regular
+font author: Typodermic Fonts
+font author site: http://typodermicfonts.com/
+
+
+icon designer: Anna Bearne
+icon designer link: /annabearne
+        
+{"bg":"#0B345A","icon":"#22C4D6","font":"#22C4D6","slogan":"#36d8ea"}
+      
