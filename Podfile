@@ -1,7 +1,7 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'Social' do
+target 'Sparke' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
@@ -14,12 +14,12 @@ target 'Social' do
  pod 'SDWebImage', '~> 5.0'
  pod 'IQKeyboardManagerSwift'
 
-  target 'SocialTests' do
+  target 'SparkeTests' do
     inherit! :search_paths
     # Pods for testing
   end
 
-  target 'SocialUITests' do
+  target 'SparkeUITests' do
     # Pods for testing
   end
 

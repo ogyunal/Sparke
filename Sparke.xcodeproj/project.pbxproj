@@ -77,7 +77,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A1676E024446F9400642A4D /* Social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Social.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A1676E024446F9400642A4D /* Sparke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sparke.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A1676E324446F9400642A4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A1676E524446F9400642A4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0A1676E724446F9400642A4D /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -85,10 +85,10 @@
 		0A1676EC24446F9600642A4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A1676EF24446F9600642A4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A1676F124446F9600642A4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0A1676F624446F9600642A4D /* SocialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A1676F624446F9600642A4D /* SparkeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SparkeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A1676FA24446F9600642A4D /* SocialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialTests.swift; sourceTree = "<group>"; };
 		0A1676FC24446F9600642A4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0A16770124446F9600642A4D /* SocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A16770124446F9600642A4D /* SparkeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SparkeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A16770524446F9600642A4D /* BeezwaxzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeezwaxzUITests.swift; sourceTree = "<group>"; };
 		0A16770724446F9600642A4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A1677182444728100642A4D /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
@@ -172,9 +172,9 @@
 		0A1676D724446F9400642A4D = {
 			isa = PBXGroup;
 			children = (
-				0A1676E224446F9400642A4D /* Social */,
-				0A1676F924446F9600642A4D /* SocialTests */,
-				0A16770424446F9600642A4D /* SocialUITests */,
+				0A1676E224446F9400642A4D /* Sparke */,
+				0A1676F924446F9600642A4D /* SparkeTests */,
+				0A16770424446F9600642A4D /* SparkeUITests */,
 				0A1676E124446F9400642A4D /* Products */,
 				50A132661170037DC844286D /* Pods */,
 				C342617FFE4A62B26B2105E1 /* Frameworks */,
@@ -184,14 +184,14 @@
 		0A1676E124446F9400642A4D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0A1676E024446F9400642A4D /* Social.app */,
-				0A1676F624446F9600642A4D /* SocialTests.xctest */,
-				0A16770124446F9600642A4D /* SocialUITests.xctest */,
+				0A1676E024446F9400642A4D /* Sparke.app */,
+				0A1676F624446F9600642A4D /* SparkeTests.xctest */,
+				0A16770124446F9600642A4D /* SparkeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0A1676E224446F9400642A4D /* Social */ = {
+		0A1676E224446F9400642A4D /* Sparke */ = {
 			isa = PBXGroup;
 			children = (
 				0A7A09D82444A478001771BA /* DB */,
@@ -202,25 +202,25 @@
 				0A167714244470B900642A4D /* Storyboards */,
 				0A1677132444709C00642A4D /* Supporting Files */,
 			);
-			path = Social;
+			path = Sparke;
 			sourceTree = "<group>";
 		};
-		0A1676F924446F9600642A4D /* SocialTests */ = {
+		0A1676F924446F9600642A4D /* SparkeTests */ = {
 			isa = PBXGroup;
 			children = (
 				0A1676FA24446F9600642A4D /* SocialTests.swift */,
 				0A1676FC24446F9600642A4D /* Info.plist */,
 			);
-			path = SocialTests;
+			path = SparkeTests;
 			sourceTree = "<group>";
 		};
-		0A16770424446F9600642A4D /* SocialUITests */ = {
+		0A16770424446F9600642A4D /* SparkeUITests */ = {
 			isa = PBXGroup;
 			children = (
 				0A16770524446F9600642A4D /* BeezwaxzUITests.swift */,
 				0A16770724446F9600642A4D /* Info.plist */,
 			);
-			path = SocialUITests;
+			path = SparkeUITests;
 			sourceTree = "<group>";
 		};
 		0A1677132444709C00642A4D /* Supporting Files */ = {
@@ -352,9 +352,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0A1676DF24446F9400642A4D /* Social */ = {
+		0A1676DF24446F9400642A4D /* Sparke */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A16770A24446F9600642A4D /* Build configuration list for PBXNativeTarget "Social" */;
+			buildConfigurationList = 0A16770A24446F9600642A4D /* Build configuration list for PBXNativeTarget "Sparke" */;
 			buildPhases = (
 				6A09E0443C84DFA1CEB3F0B9 /* [CP] Check Pods Manifest.lock */,
 				0A1676DC24446F9400642A4D /* Sources */,
@@ -366,14 +366,14 @@
 			);
 			dependencies = (
 			);
-			name = Social;
+			name = Sparke;
 			productName = Beezwaxz;
-			productReference = 0A1676E024446F9400642A4D /* Social.app */;
+			productReference = 0A1676E024446F9400642A4D /* Sparke.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0A1676F524446F9600642A4D /* SocialTests */ = {
+		0A1676F524446F9600642A4D /* SparkeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A16770D24446F9600642A4D /* Build configuration list for PBXNativeTarget "SocialTests" */;
+			buildConfigurationList = 0A16770D24446F9600642A4D /* Build configuration list for PBXNativeTarget "SparkeTests" */;
 			buildPhases = (
 				F652FC380D349E02A17A8B6F /* [CP] Check Pods Manifest.lock */,
 				0A1676F224446F9600642A4D /* Sources */,
@@ -385,14 +385,14 @@
 			dependencies = (
 				0A1676F824446F9600642A4D /* PBXTargetDependency */,
 			);
-			name = SocialTests;
+			name = SparkeTests;
 			productName = BeezwaxzTests;
-			productReference = 0A1676F624446F9600642A4D /* SocialTests.xctest */;
+			productReference = 0A1676F624446F9600642A4D /* SparkeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0A16770024446F9600642A4D /* SocialUITests */ = {
+		0A16770024446F9600642A4D /* SparkeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A16771024446F9600642A4D /* Build configuration list for PBXNativeTarget "SocialUITests" */;
+			buildConfigurationList = 0A16771024446F9600642A4D /* Build configuration list for PBXNativeTarget "SparkeUITests" */;
 			buildPhases = (
 				8302F8C97B875849C388B95B /* [CP] Check Pods Manifest.lock */,
 				0A1676FD24446F9600642A4D /* Sources */,
@@ -405,9 +405,9 @@
 			dependencies = (
 				0A16770324446F9600642A4D /* PBXTargetDependency */,
 			);
-			name = SocialUITests;
+			name = SparkeUITests;
 			productName = BeezwaxzUITests;
-			productReference = 0A16770124446F9600642A4D /* SocialUITests.xctest */;
+			productReference = 0A16770124446F9600642A4D /* SparkeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -433,7 +433,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0A1676DB24446F9400642A4D /* Build configuration list for PBXProject "Social" */;
+			buildConfigurationList = 0A1676DB24446F9400642A4D /* Build configuration list for PBXProject "Sparke" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -446,9 +446,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0A1676DF24446F9400642A4D /* Social */,
-				0A1676F524446F9600642A4D /* SocialTests */,
-				0A16770024446F9600642A4D /* SocialUITests */,
+				0A1676DF24446F9400642A4D /* Sparke */,
+				0A1676F524446F9600642A4D /* SparkeTests */,
+				0A16770024446F9600642A4D /* SparkeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -654,12 +654,12 @@
 /* Begin PBXTargetDependency section */
 		0A1676F824446F9600642A4D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0A1676DF24446F9400642A4D /* Social */;
+			target = 0A1676DF24446F9400642A4D /* Sparke */;
 			targetProxy = 0A1676F724446F9600642A4D /* PBXContainerItemProxy */;
 		};
 		0A16770324446F9600642A4D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0A1676DF24446F9400642A4D /* Social */;
+			target = 0A1676DF24446F9400642A4D /* Sparke */;
 			targetProxy = 0A16770224446F9600642A4D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -807,16 +807,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RBNFBE5ZU6;
-				INFOPLIST_FILE = "$(SRCROOT)/Social/Supporting Files/Info.plist";
+				DEVELOPMENT_TEAM = 94XZYR3L2T;
+				INFOPLIST_FILE = "$(SRCROOT)/Sparke/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.2;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Social;
-				PRODUCT_NAME = Social;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ogyunal;
+				PRODUCT_NAME = Sparke;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -829,16 +829,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RBNFBE5ZU6;
-				INFOPLIST_FILE = "$(SRCROOT)/Social/Supporting Files/Info.plist";
+				DEVELOPMENT_TEAM = 94XZYR3L2T;
+				INFOPLIST_FILE = "$(SRCROOT)/Sparke/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.2;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Social;
-				PRODUCT_NAME = Social;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ogyunal;
+				PRODUCT_NAME = Sparke;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -851,7 +851,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RBNFBE5ZU6;
+				DEVELOPMENT_TEAM = 94XZYR3L2T;
 				INFOPLIST_FILE = BeezwaxzTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -863,7 +863,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Social.app/Social";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sparke.app/Sparke";
 			};
 			name = Debug;
 		};
@@ -874,7 +874,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RBNFBE5ZU6;
+				DEVELOPMENT_TEAM = 94XZYR3L2T;
 				INFOPLIST_FILE = BeezwaxzTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -886,7 +886,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Social.app/Social";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sparke.app/Sparke";
 			};
 			name = Release;
 		};
@@ -896,7 +896,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RBNFBE5ZU6;
+				DEVELOPMENT_TEAM = 94XZYR3L2T;
 				INFOPLIST_FILE = BeezwaxzUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -917,7 +917,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RBNFBE5ZU6;
+				DEVELOPMENT_TEAM = 94XZYR3L2T;
 				INFOPLIST_FILE = BeezwaxzUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -935,7 +935,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0A1676DB24446F9400642A4D /* Build configuration list for PBXProject "Social" */ = {
+		0A1676DB24446F9400642A4D /* Build configuration list for PBXProject "Sparke" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A16770824446F9600642A4D /* Debug */,
@@ -944,7 +944,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0A16770A24446F9600642A4D /* Build configuration list for PBXNativeTarget "Social" */ = {
+		0A16770A24446F9600642A4D /* Build configuration list for PBXNativeTarget "Sparke" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A16770B24446F9600642A4D /* Debug */,
@@ -953,7 +953,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0A16770D24446F9600642A4D /* Build configuration list for PBXNativeTarget "SocialTests" */ = {
+		0A16770D24446F9600642A4D /* Build configuration list for PBXNativeTarget "SparkeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A16770E24446F9600642A4D /* Debug */,
@@ -962,7 +962,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0A16771024446F9600642A4D /* Build configuration list for PBXNativeTarget "SocialUITests" */ = {
+		0A16771024446F9600642A4D /* Build configuration list for PBXNativeTarget "SparkeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A16771124446F9600642A4D /* Debug */,
